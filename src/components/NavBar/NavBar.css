@@ -1,0 +1,49 @@
+/* Estilos generales */
+.nav-container{
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fff;
+  padding: 0 1.5rem;
+  height: 5%;
+}
+
+.nav-left{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.nav-center{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-right{
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+div a{
+  text-decoration: none;
+}
+
+/* Estilos especificos */
+
+.nav-left div, .nav-right div{
+  margin: .5rem;
+  font-size: 12px;
+}
+
+.nav-left div a, .nav-right div a{
+  color: #000;
+}
+
+/* Animaciones y miscelaneos */
+
+.nav-left div a:hover, .nav-right div a:hover{
+  border-bottom: 2px solid #000;
+}

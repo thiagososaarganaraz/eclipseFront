@@ -1,0 +1,21 @@
+/* General */
+
+.slider-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+  background-color: peru;
+}
+
+.slider-screen{
+  display: flex;
+  /* flex-direction: column; */
+  flex: 9;
+  /* width: 100%; */
+}
+
+.slider-bar{
+  background-color: #111;
+  flex: 1;
+}
