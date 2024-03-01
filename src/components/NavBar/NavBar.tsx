@@ -16,7 +16,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className="nav-center">
-        <h1>LOGO</h1>
+        <a href="#"><h1>ECLIPSE</h1></a>
       </div>
       <div className="nav-right">
         <div>
